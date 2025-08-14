@@ -25,8 +25,8 @@ https://github-opensource-contribution-trac.vercel.app/
 
 ## 📦 Installation
 ```bash
-git clone https://github.com/melegithubyit/github-stat.git
-cd github-stat
+git clone https://github.com/melegithubyit/Opensource-Github-Contribution-Tracker.git
+cd Opensource-Github-Contribution-Tracker
 npm install
 ```
 
