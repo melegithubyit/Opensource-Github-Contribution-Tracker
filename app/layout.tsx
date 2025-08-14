@@ -23,7 +23,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* Initial theme (avoids flash) */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+(function(){
+  try{
+    const ls = localStorage.getItem('theme');
+    if(ls === 'dark' || (!ls && window.matchMedia('(prefers-color-scheme:dark)').matches)){
+      document.documentElement.classList.add('dark');
+    }
+  }catch(e){}
+})();`,
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
