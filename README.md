@@ -16,7 +16,7 @@ A simple, fast, and open-source web app to track any GitHub user's open-source c
 - Future: caching layer (planned)
 
 ## Live Demo
-https://your-demo-url.example (replace with real deployment)
+https://github-opensource-contribution-trac.vercel.app/
 
 ## Tech Stack
 - Frontend: Next.js, Tailwind CSS
