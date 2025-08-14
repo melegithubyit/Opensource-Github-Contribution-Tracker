@@ -162,7 +162,7 @@ export default function Home() {
         {/* Search / Inputs */}
         <div className="mb-8">
           <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold tracking-tight mb-2">Discover GitHub Contributions</h2>
+            <h2 className="text-3xl font-bold tracking-tight mb-2">Discover GitHub Contributions Quickly</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Get comprehensive insights into any GitHub developer&apos;s open source contributions, repository statistics,
               and coding activity.
