@@ -2,7 +2,7 @@
 
 A simple, fast, and open-source web app to track any GitHub user's open-source contributions — without logging in.
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](#license) [![Deploy](https://img.shields.io/badge/deploy-Vercel-informational)](#)  
+[![Deploy](https://img.shields.io/badge/deploy-Vercel-informational)](#)  
 
 ## Features
 - Search any GitHub user by username
