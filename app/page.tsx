@@ -174,7 +174,7 @@ export default function Home() {
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold tracking-tight mb-2">Discover GitHub Contributions <span className="text-green-500">Quickly</span></h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Get comprehensive insights into any GitHub developer&apos;s open source contributions, repository statistics,
+              Get Quick insights into any GitHub developer&apos;s open source contributions, repository statistics,
               and coding activity.
             </p>
           </div>
