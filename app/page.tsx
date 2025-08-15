@@ -19,6 +19,7 @@ import PRMergeGauge from "@/components/PRMergeGauge"
 import RateLimitIndicator from "@/components/RateLimitIndicator"
 import ComparisonStats from "@/components/ComparisonStats"
 import ThemeToggle from "@/components/ThemeToggle" 
+import Link from "next/link"
 
 interface GithubProfile {
   login: string
@@ -148,7 +149,16 @@ export default function Home() {
               </div>
             </div>
             <div className="flex items-center gap-3">
-              <ThemeToggle /> {/* New */}
+              <ThemeToggle /> 
+              <Link
+                href="https://github.com/melegithubyit/Opensource-Github-Contribution-Tracker.git"
+                target="_blank"
+                rel="noreferrer"
+                className="text-xs sm:text-sm flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors"
+              >
+                Source
+                <ExternalLink className="h-3 w-3" />
+              </Link>
               <Badge variant="secondary" className="hidden sm:flex items-center gap-1">
                 <TrendingUp className="h-3 w-3" />
                 Powered by GitHub API
