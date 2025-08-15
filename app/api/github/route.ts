@@ -1,12 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-/* NOTE (deployment):
-Set GITHUB_TOKEN in Vercel Project Settings -> Environment Variables.
-Use a fine‑grained or classic PAT (public scopes only). Do not prefix with NEXT_PUBLIC_.
-This token raises rate limits & enables GraphQL calendar + advanced language scan.
-Never expose it client-side.
-*/
-
 import { NextRequest, NextResponse } from "next/server";
 
 interface SlimRepo {
